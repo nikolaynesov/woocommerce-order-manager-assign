@@ -1,0 +1,33 @@
+
+#woo-oma-order-edit { 
+	clear:both;
+	background-color: #f2ecca;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#woo-oma-order-edit:before,
+#woo-oma-order-edit:after,
+#woo-oma-order-edit-gap:before,
+#woo-oma-order-edit-gap:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+#woo-oma-order-edit-gap {
+	height: 20px;
+	width: 100%;
+	position: relative;
+	clearfix: both;
+}
+
+#woo-oma-order-edit,
+#woo-oma-order-edit-gap {
+	float: left;
+}
+
+.woo-oma-stats-inline {
+	font-size: 18px;
+}
